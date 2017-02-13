@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чекліст для покупців - Київський стандарт</title>
+</head>
+<body>
+<h1>Чекліст для покупців</h1>
+<div class="list">
+{% for question in questions %}
+        <h2>
+            {{ question.title }}
+        </h2>
+        <div class="question-descr">
+            {{ question.description }}
+        </div>
+{% endfor %}
+</div>
+</body>
+</html>
