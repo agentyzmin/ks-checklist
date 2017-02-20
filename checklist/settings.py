@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
-    'list.apps.ListConfig',
 ]
 
 MIDDLEWARE = [
@@ -78,9 +77,9 @@ WSGI_APPLICATION = 'checklist.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
+        'NAME': 'checklist_db',
+        'USER': 'leonidivanov',
+        'PASSWORD': '486ak7wy4',
     }
 }
 

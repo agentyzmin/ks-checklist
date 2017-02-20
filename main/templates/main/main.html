@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чекліст для покупців</title>
+</head>
+<body>
+<h1>Чекліст для покупців</h1>
+<form action="/apartments/{{ apartment.id }}" method="post">
+    {% csrf_token %}
+    <p><select size="10">
+        <option disabled>Оберіть комплекс</option>
+    {% for apartment in apartments %}
+    <option value="{{apartment.id}}">{{ apartment.title }}</option>
+        {% endfor %}
+    </select></p>
+    <input type="submit" value="Обрати">
+</form>
+</body>
+</html>

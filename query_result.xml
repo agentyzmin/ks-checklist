@@ -1,0 +1,5850 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: hz-14.lun.in.ua (MySQL 5.6.35-80.0)
+- Database: buildings_ua
+- Generation Time Time: 2017-02-13 14:39:25 +0000
+-
+-->
+
+<resultset statement="select building_id, name, (select nominative from geo_cities as gc where b.city_id = gc.city_id) as city, address, class, state, developer_offer
+from buildings as b where region_id = 10 and is_active = 'yes' and is_risky = 'no' and building_type = 'new_building' order by building_id asc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="building_id">19</field>
+		<field name="name">ЖК Изумрудный</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Механизаторов, 2</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">20</field>
+		<field name="name">ЖК Парковый город</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Вышгородская, 45а/2, 45а/4, 45а/5, 45а/6, 45б/1, 45б/3, 45/б4</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">22</field>
+		<field name="name">ЖК Престиж Холл</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Анри Барбюса, 37/1</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">24</field>
+		<field name="name">ЖК Триумф</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Зверинецкая, 59</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">25</field>
+		<field name="name">ЖК Сонячна брама</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ломоносова, 73-79</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">28</field>
+		<field name="name">ЖК 4 сезона</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Михаила Максимовича (Трутенко), 3г</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">29</field>
+		<field name="name">ЖК Атлант 2</field>
+		<field name="city">Коцюбинское</field>
+		<field name="address">ул. Пономарева, 26</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">35</field>
+		<field name="name">ЖК Новопечерские Липки</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Михаила Драгомирова, 1, 3, 5, 12, 14, 16б, 18а, 20а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">36</field>
+		<field name="name">ЖК Park Avenue VIP</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Голосеевский, 58а</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">41</field>
+		<field name="name">ЖК Покровский посад</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Глубочицкая, 32а, 32б, 32в</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">44</field>
+		<field name="name">ЖК Чайка</field>
+		<field name="city">Чайки</field>
+		<field name="address">ул. Лобановского, 1-31</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">45</field>
+		<field name="name">ЖК Парковые озера</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Воскресенская, 12а, 12б, 12в, 12г, 14б, 14д, 14е, 16б, 16в, 16г</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">49</field>
+		<field name="name">ЖК Виктория</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 119-121</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">50</field>
+		<field name="name">ЖК Воскресенский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Петра Запорожца, 26а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">52</field>
+		<field name="name">ЖК Голосеево</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Голосеевская, 13, 13а, 13б</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">55</field>
+		<field name="name">ЖК Альпийский городок</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Протасов Яр, 8</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">56</field>
+		<field name="name">ЖК Перлина Кадетського Гаю</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Эрнста Федора, 16</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">60</field>
+		<field name="name">ЖК Лико-Град 3</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ломоносова</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">66</field>
+		<field name="name">ЖК Западный</field>
+		<field name="city">Чайки</field>
+		<field name="address">ул. Коцюбинского, 9</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">69</field>
+		<field name="name">ЖК Петропавловский</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Авиаторов, 41а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">74</field>
+		<field name="name">ЖК PecherSKY</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Дружбы Народов, 40 / ул. Болсуновская (Струтинского), 2</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">83</field>
+		<field name="name">ЖК Green House</field>
+		<field name="city">Борисполь</field>
+		<field name="address">пер. Бабкина, 6</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">143</field>
+		<field name="name">ЖК Комфорт Таун</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Регенераторная, 4</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">186</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Каунасская, 2а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">197</field>
+		<field name="name">ЖК Тридцать восьмая жемчужина</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Жилянская, 68</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">236</field>
+		<field name="name">ЖК Вишневый квартал</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Европейская (Октябрьская), 31а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">246</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Евгения Харченка (Ленина), 47-59</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">276</field>
+		<field name="name">ЖК Richmond</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ивана Кудри, 26</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">278</field>
+		<field name="name">ЖК Срібна Вежа</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Белорусская, 36а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">323</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Леси Украинки, 7б</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">324</field>
+		<field name="name">ЖК Ревуцкого, 9</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ревуцкого, 9</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">340</field>
+		<field name="name">ЖК Перовский</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Перова, 10а, ул. Алишера Навои, 69</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">344</field>
+		<field name="name">Клубный Дом «На Мичурина»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Мичурина, 61</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">345</field>
+		<field name="name">ЖК Радужный</field>
+		<field name="city">Украинка</field>
+		<field name="address">ул. Киевская, 3</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">356</field>
+		<field name="name">ЖК Софиевский</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Леси Украинки, 19</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">482</field>
+		<field name="name">ЖК Crystal Park</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 42</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">531</field>
+		<field name="name">ЖК Smart Plaza Polytech</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 26</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">533</field>
+		<field name="name">ЖК Адмирал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Николая Ушакова, 1б, 1в, 1г</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">543</field>
+		<field name="name">ЖК Суворов</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Выговского (Суворова), 1о, 1р, 1т, 1ю, 1я, ул. Лермонтова, 2г, 2н</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">545</field>
+		<field name="name">ЖК Матросова</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Матросова, 21, 21а, 21б, 21в, 19б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">547</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Полтавская, 69</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">559</field>
+		<field name="name">ЖК Городок</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Машиностроителей</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">561</field>
+		<field name="name">ЖК Липинка</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Замковецкая, 102, 102а, 102б, 104, 104а, 106, 106а, 106б, ул. Кавалеридзе, 1, 3, 5, 7, 9, 11, ул. Данченко, 2, 4, 6, 8, 10</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">562</field>
+		<field name="name">ЖК РиверСтоун</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Днепровская набережная, 14, 14а, 14б</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">564</field>
+		<field name="name">ЖК H-Tower</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Тараса Шевченко, 28-30</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">565</field>
+		<field name="name">ЖК Новосельцево</field>
+		<field name="city">Чубинское</field>
+		<field name="address">ул. Выставочная, 12, 14, 16, 18, 20, 22</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">566</field>
+		<field name="name">ЖК Петровский обновленный</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Тепличная, 42 (ул. Красного Пахаря, 2в)</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">567</field>
+		<field name="name">ЖК Авиа Квартал</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Витянская, 2</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">568</field>
+		<field name="name">ЖК Софиевская Слободка</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Амосова, ул. Боголюбова, ул. Южная, ул. Франко</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">576</field>
+		<field name="name"></field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Новая, 4</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">578</field>
+		<field name="name"></field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Старокиевская (Ватутина), 99</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">585</field>
+		<field name="name">ЖК Джерело</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Толстого, 50/52, 50а, 52а, 54, 54а, 56, 56а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">601</field>
+		<field name="name">ЖК Гранд Виллас</field>
+		<field name="city">Ворзель</field>
+		<field name="address">ул. Чубинского, 1, 3, 5, 6, 8, 10, 12, 14</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">609</field>
+		<field name="name">ЖК Теплый дом</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Полтавская, 27а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">618</field>
+		<field name="name">ЖК Чубинское</field>
+		<field name="city">Чубинское</field>
+		<field name="address">ул. Яблочная, 4, 6, 8, 10, 12, ул. Артема, 5, ул. Вербицкого, 12, ул. Виноградная, 3</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">619</field>
+		<field name="name"></field>
+		<field name="city">Шевченково</field>
+		<field name="address">ул. Гвардейская, 17</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">630</field>
+		<field name="name">ЖК Central Park</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ивана Кудри, 7</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">639</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">Кловский спуск, 7</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">641</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Шевченко, 6а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">746</field>
+		<field name="name">ЖК Министерский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Юрия Кондратюка, 3, 5, 7</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">750</field>
+		<field name="name">ЖК Ягода</field>
+		<field name="city">Гостомель</field>
+		<field name="address">Бучанское шоссе, 14а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">771</field>
+		<field name="name">ЖК Воздвиженка</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Воздвиженская, 9-19, 22, 48, 50, ул. Дегтярная, 5, ул. Кожемяцкая, 12в, 14б, 14в, 16б, 20в, 20г</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">802</field>
+		<field name="name">Клубный дом «Арт Холл»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бульварно-Кудрявская (Воровского), 21</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">807</field>
+		<field name="name">ЖК Светлица</field>
+		<field name="city">Немешаево</field>
+		<field name="address">ул. Гагарина, 2, 4, 6, 8, 10</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">814</field>
+		<field name="name">ЖК Киевский</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская (Карла Маркса), 2/1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">822</field>
+		<field name="name">ЖК Новодарницкий</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ильича, 17</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">825</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Полтавская, 31к</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">836</field>
+		<field name="name">ЖК Парк Стоун</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Героев Сталинграда, 2д</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">frozen</field>
+	</row>
+
+	<row>
+		<field name="building_id">837</field>
+		<field name="name">ЖК Петровский квартал</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Богдана Хмельницкого, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">839</field>
+		<field name="name">ЖК Пражский квартал 2</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">пер. Софиевский, 15, ул. Садовая, 51а, 51б, 51в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">856</field>
+		<field name="name">ЖК Бульвар Фонтанов</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Патриса Лумумбы, 6/1</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">857</field>
+		<field name="name">ЖК Кришталеві джерела</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Метрологическая</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">858</field>
+		<field name="name">ЖК София</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Леси Украинки, ул. Ивана Франка, ул. Боголюбова, ул. Мира</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">859</field>
+		<field name="name">ЖК Львовский</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Львовская, 1, 3, 5, 7, ул. Волошковая, 1, 2, 6, ул. Волынская, 1, 3, 8, 9, 12, ул. Тернопольская, 5, 10 (корп.1, 2), ул. Мира, 9 (корп.1, 2), 11, 11а, 15, 15а, 23, 23а, 23б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">874</field>
+		<field name="name">ЖК Грюнвальд</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Клавдиевская, 40а, 40б, 40в, 40г</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">968</field>
+		<field name="name">ЖК Янтарный</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Соборная, 1г</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">974</field>
+		<field name="name">ЖК Полесский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Николая Хвылевого, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">990</field>
+		<field name="name">ЖК Вишнева оселя (ул. Вишневая)</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Вишневая, 27</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">992</field>
+		<field name="name">ЖК Пионерский квартал</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Пионерская, 9, 9а, 14, 18, 20, 22, 24, 26, 28, 28а, 30, ул. Первомайская, 25, ул. Наливайка, 9, 13, ул. Б. Хмельницкого, 52, 54, 63, 65, ул. Хвылевого, 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17/30, 18</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">993</field>
+		<field name="name">ЖК Бирюза</field>
+		<field name="city">Подгорцы</field>
+		<field name="address">ул. Озерная, 2, 3, 8, 10, 12</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1012</field>
+		<field name="name">ЖК Татарский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Отто Шмидта, 10ж</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1017</field>
+		<field name="name">ЖК Молодежный городок</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Загородная, 2,4, ул. Одесская, 24, 26, 36, 38, 40, 42, ул. Подольская, 1, 2, 3, 4, 6, 8</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1020</field>
+		<field name="name">ЖК Счастливый</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Волошкова, 74, ул. Счастливая, 44, 55, 50, 61</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1066</field>
+		<field name="name">ЖК Славгородский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Славгородская, 25</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1107</field>
+		<field name="name">ЖК Европейське місто</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Жулянская, 1а, 1б, 1в, 1г, 1д, ул. Европейская, 2а, 2б, 2в, 2г, ул. Жулянская, 2а, 2б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1109</field>
+		<field name="name">Клубный дом «Gelios»</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Задорожного, 6а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1112</field>
+		<field name="name">ЖК Country House</field>
+		<field name="city">Гора</field>
+		<field name="address">ул. Центральная, 30г</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1113</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Академика Глушкова, 92б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1116</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Воссоединения, 21в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1118</field>
+		<field name="name">Квартал Тарасовский</field>
+		<field name="city">Тарасовка</field>
+		<field name="address">ул. Братьев Чмилив, 1а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1122</field>
+		<field name="name">ЖК Яскравый</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Семьи Кульженков (Петра Дегтяренко), 31а, 33, 35, ул. Петра Калнышевского (Майорова), 8</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1150</field>
+		<field name="name">ЖК Лелека</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Головатого, 76</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1160</field>
+		<field name="name">ЖК Квартал Буча</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Депутатская</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1162</field>
+		<field name="name">ЖК Уюткино</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Виктора Йовы, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1172</field>
+		<field name="name">Місто Квітів. Парковий квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Тираспольская, 43</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1173</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Казимира Малевича (Боженко) / ул. Лабораторная</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1175</field>
+		<field name="name">ЖК Златоуст</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Златоустовская, 47-49</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1195</field>
+		<field name="name">ЖК Венеция</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ломоносова / ул. Конева / ул. Вильямса</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1223</field>
+		<field name="name">ЖК Зеленый Квартал</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Черновола, 9, 11, 15</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1224</field>
+		<field name="name">ARCH House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Николая Пирогова / ул. Богдана Хмельницкого, 2/37б</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1227</field>
+		<field name="name">ЖК Ирпенские Липки</field>
+		<field name="city">Ирпень</field>
+		<field name="address">Гостомельское шоссе / 11 линия</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1233</field>
+		<field name="name">ЖК Столичный</field>
+		<field name="city">Васильков</field>
+		<field name="address">ул. Декабристов</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1865</field>
+		<field name="name">ЖК Сырецкий Бояр</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Рижская, 73г</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1867</field>
+		<field name="name">ЖК София Киевская</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Горького, 5б, 5в, 5г, ул. Павла Чубинского, 2, 4, 4а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1873</field>
+		<field name="name">ЖК Киевский квартал</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Академика Шалимова, 86, ул. Радужная, 145, 163</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1882</field>
+		<field name="name">ЖК Первоцвет</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Февральская, 46</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1884</field>
+		<field name="name">ЖК Минеральный 39</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Минеральная, 39</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1905</field>
+		<field name="name">ЖК Пейзажные озера</field>
+		<field name="city">Макаров</field>
+		<field name="address">ул. Виноградная</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1906</field>
+		<field name="name">ЖК Курортный</field>
+		<field name="city">Киев</field>
+		<field name="address">Пуща-Водица, ул. Федора Максименко (Краснофлотская), 24а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1923</field>
+		<field name="name">ЖК Патриарх Холл</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Саксаганского, 80</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1925</field>
+		<field name="name">ЖК Соло Парк</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Механизаторов</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1926</field>
+		<field name="name">ЖК Ваша квартира</field>
+		<field name="city">Гатное</field>
+		<field name="address">ул. Гоголя, 17, ул. Дорошенко, 9, 5, ул. Зелёная, 25, 27, ул. Абрикосовая, 6, ул. Институтская, 101</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1930</field>
+		<field name="name">ЖК Royal Tower</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Саксаганского, 37к</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1933</field>
+		<field name="name">ЖК Садовый</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Комбинатная, 25, 25а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1935</field>
+		<field name="name">ЖК Парковый</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Севериновская (Октябрьская), 105б, 105л, 105м, 105н, ул. Натана Рыбака, 25в</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1936</field>
+		<field name="name">ЖК Энергия плюс</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Юности, 8а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1939</field>
+		<field name="name">ЖК Уютный квартал</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">просп. Героев Небесной Сотни, 18</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1945</field>
+		<field name="name">ЖК Твой Дом</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Волошкова, 66</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1947</field>
+		<field name="name">ЖК Счастливый на Петропавловке</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Соборная (Ленина), 10а, 10б, 10в, 10г, 10д, 10д/1, 14 а,б,в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1949</field>
+		<field name="name">ЖК Сосновый бор</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. 10 Линия, 4б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1968</field>
+		<field name="name">ЖК Tetris Hall</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Деловая (Димитрова) / ул. Анри Барбюса, 1/2</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1970</field>
+		<field name="name">ЖК Берестейский</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 55</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1979</field>
+		<field name="name">ЖК Семейный</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Лесная, 42-44</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">1982</field>
+		<field name="name">ЖК Green House</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Котляревского, 32</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2051</field>
+		<field name="name">ЖК Alter Ego</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Лабораторный, 7</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2052</field>
+		<field name="name">ЖК Малахит</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Богдановская, 7а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2070</field>
+		<field name="name">ЖК Статус Град</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Завальная, 10</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2071</field>
+		<field name="name">ЖК Власна квартира</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Вильямса, 6г, 8д, 8а, пер. Московский, 2ж</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2081</field>
+		<field name="name">ЖК Тарасовский</field>
+		<field name="city">Тарасовка</field>
+		<field name="address">ул. Школьная 6, 6а, пер. Островского, 7</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2087</field>
+		<field name="name">ЖК Дубовый Гай</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Новооскольская, 2з</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2101</field>
+		<field name="name">ЖК Святобор</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Львовская, 15</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2106</field>
+		<field name="name">ЖК Софиевский пассаж</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Мира, 7, 9, 13</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2129</field>
+		<field name="name">ЖК Андерсен</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Сечевых Стрельцов (Артема), 84а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2157</field>
+		<field name="name">ЖК Атлантис</field>
+		<field name="city">Бровары</field>
+		<field name="address">бул. Независимости, 2б</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2171</field>
+		<field name="name">ЖК Левада</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Шевченко, 145/1, 165а, пер. Старовокзальный, 6</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2172</field>
+		<field name="name">ЖК Центральный</field>
+		<field name="city">Буча</field>
+		<field name="address">Новое шоссе, 8</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2174</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Гарматная, 39г</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2176</field>
+		<field name="name">ЖК Изумрудный город (Новые Петровцы)</field>
+		<field name="city">Новые Петровцы</field>
+		<field name="address">ул. Европейская, 10, 8, 6, 6а, 3/1, 3/2, ул. Петровская, 7, 9</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2177</field>
+		<field name="name">ЖК Аметист</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Садовая, 1а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">2178</field>
+		<field name="name">ЖК Предславинская</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Предславинская</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">2183</field>
+		<field name="name">ЖК Панорама</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Майкопская, 1а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2185</field>
+		<field name="name">ЖК Милые квартиры</field>
+		<field name="city">Мила</field>
+		<field name="address">ул. Комарова, 38, 40а/1, 40б/1, ул. Спортивная, 18, 20</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2222</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Обуховская, 135а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2226</field>
+		<field name="name">ЖК Львівський маєток</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Сагайдачного, 4, 5, 7, 10, 15, 16, ул. Гетьманская, 6, 8, 17, ул. Дорошенко, 15, 17, ул. Кошевая, 107, 110, 111, ул. Радужная, 98, 100, 137, 147</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2241</field>
+		<field name="name">ЖК Артемовский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бакинская, 37в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2252</field>
+		<field name="name">ЖК Подол Престиж</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Нижний Вал</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">frozen</field>
+	</row>
+
+	<row>
+		<field name="building_id">2253</field>
+		<field name="name">ЖК Дом на Бестужева</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бестужева, 2г</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2262</field>
+		<field name="name">ЖК Столичные каштаны</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Якуба Коласа, 2б</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2264</field>
+		<field name="name">ЖК Французский квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Анри Барбюса, 52/1, 52/1а, ул. Филатова, 2/1</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2294</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Евгена Маланюка (Сагайдака), 101</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2297</field>
+		<field name="name">ЖК Ворзель Парк</field>
+		<field name="city">Ворзель</field>
+		<field name="address">ул. Кленовая (Ленина), 45а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2301</field>
+		<field name="name">ЖК Парковый</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Вокзальная, 117</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2306</field>
+		<field name="name">ЖК Рось</field>
+		<field name="city">Белая Церковь</field>
+		<field name="address">ул. Шевченко, 103, 103а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2330</field>
+		<field name="name">ЖК Княжа гора</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Симоненка, 4в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2331</field>
+		<field name="name">ЖК Козацкий</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Гарматная, 38</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2343</field>
+		<field name="name">ЖК Комфортный</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 2е (Карла Маркса)</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2351</field>
+		<field name="name">ЖК Академгородок</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Ефремова (Командарма Уборевича), 8а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2355</field>
+		<field name="name">ЖК Старокиевский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Старокиевская, 10</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2367</field>
+		<field name="name">ЖК Кассиопея</field>
+		<field name="city">Киев</field>
+		<field name="address">ул.  Евгена Маланюка (Сагайдака), 101а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2376</field>
+		<field name="name">ЖК Лесной квартал</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Киевская</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2378</field>
+		<field name="name">ЖК Вишневий затишок</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Леси Украинки, 21</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2416</field>
+		<field name="name">ЖК Алые паруса</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Екатерины Билокур, 1а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2439</field>
+		<field name="name">ЖК Первый парковый</field>
+		<field name="city">Белогородка</field>
+		<field name="address">ул. Терновская, 2а, 2б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2450</field>
+		<field name="name">ЖК Чемпион. Голосеево</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Московский, 2е</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2472</field>
+		<field name="name">ЖК Дубровка ЭкоГрад</field>
+		<field name="city">Ворзель</field>
+		<field name="address">ул. Кленовая (Ленина), 11б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2473</field>
+		<field name="name">ЖК Ясный</field>
+		<field name="city">Ясногородка</field>
+		<field name="address">ул. Западная, 2</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2475</field>
+		<field name="name">ЖК Оболонский бриз</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Оболонский, 30а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2479</field>
+		<field name="name">ЖК Оболонь Тауэр</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Оболонский, 54</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2486</field>
+		<field name="name">ЖК Сказка</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Лебедева, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2502</field>
+		<field name="name">ЖК Чабаны квартал</field>
+		<field name="city">Чабаны</field>
+		<field name="address">ул. Машиностроителей, 15, 17, 19</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2507</field>
+		<field name="name">ЖК Петровский дворик</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Грушевского, 5, 7</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2526</field>
+		<field name="name">ЖК Британский квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Дмитрия Луценко, 10</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">2552</field>
+		<field name="name">ЖК Авангард</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Голосеевский, 95</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">2553</field>
+		<field name="name">ЖК Никитская слобода</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Героев Севастополя, 35а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2576</field>
+		<field name="name">ЖК Киевские Зори</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Луговая, 36</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2578</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Подвысоцкого, 4в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">2580</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Теремковская, 3</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2581</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Голосеевский, 74</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">2623</field>
+		<field name="name">ЖК Бруклин</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ямская, 52</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2628</field>
+		<field name="name">ЖК Stoletof</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Столетова, 56</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2659</field>
+		<field name="name">ЖК Obolon Residences</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Оболонский, 26</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2665</field>
+		<field name="name">ЖК Concept Holl</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Московский, 2и, 2к</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2670</field>
+		<field name="name">ЖК Новая Конча-Заспа</field>
+		<field name="city">Ходосовка</field>
+		<field name="address">ул. Франка, 45</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2721</field>
+		<field name="name">ЖК Дом на Клименко</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Клименко, 8б</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2735</field>
+		<field name="name">ЖК Креатив Хаус</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Варшавская, 95в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2752</field>
+		<field name="name">ЖК Октябрьский</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Севериновская (Октябрьская), 154б, 154в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2765</field>
+		<field name="name">ЖК Женевьева</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Чехова, 6ж</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2770</field>
+		<field name="name">ЖК Белый Шоколад. Center</field>
+		<field name="city">Белогородка</field>
+		<field name="address">ул. Михаила Величко, 1, 1а, 1б, 3, 5, 8а, 8б, 10а, 10б</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2779</field>
+		<field name="name">ЖК Кампа</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Лесная, 1б</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2780</field>
+		<field name="name">ЖК Квартет</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Липковского, 16а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2781</field>
+		<field name="name">ЖК Хоффманн Хаус</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Златоустовская / ул. Павловская</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2784</field>
+		<field name="name">ЖК Шевченковский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Златоустовская, 27</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2795</field>
+		<field name="name">ЖК Паркова Оселя</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Ярослава Мудрого, 10</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2801</field>
+		<field name="name">ЖК Герцен-Парк</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Герцена, 32</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2802</field>
+		<field name="name">ЖК Обериг</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бориспольская, 21-45</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2803</field>
+		<field name="name">ЖК Аристократ</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Евгения Коновальца (Щорса), 34</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2804</field>
+		<field name="name">ЖК Украинка</field>
+		<field name="city">Украинка</field>
+		<field name="address">ул. Киевская, 1в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2805</field>
+		<field name="name">ЖК Волошковый</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Волошковая, 30</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2807</field>
+		<field name="name">ЖК Forest Land</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Ивана Выговского, 3</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2811</field>
+		<field name="name">ЖК Петропавловский посад</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Черкасская, 26</field>
+		<field name="class">1</field>
+		<field name="state">frozen</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2814</field>
+		<field name="name">ЖК Столичный квартал</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Новооскольская, 10в</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2815</field>
+		<field name="name">ЖК Александрия</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Патриарха Мстислава Скрыпныка (Николая Островского), 48/50</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2819</field>
+		<field name="name">ЖК Palladium</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Симона Петлюры (Черняховского), 21в</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2823</field>
+		<field name="name">ЖК Оксамитовий</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Бархатная, 2</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2825</field>
+		<field name="name">ЖК Амур</field>
+		<field name="city">Буча</field>
+		<field name="address">бул. Богдана Хмельницкого, 11</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2826</field>
+		<field name="name">ЖК Сонцтаун</field>
+		<field name="city">Чайки</field>
+		<field name="address">ул. Печерская, 24, 26, 28</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2827</field>
+		<field name="name">ЖД Ушакова, 1д</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Николая Ушакова, 1д</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2828</field>
+		<field name="name">мкрн Позняки-4а</field>
+		<field name="city">Киев</field>
+		<field name="address">Позняки-4а, ул. Драгоманова, 2а, 2б, 4а, ул. Елены Пчелки, 6а, 8</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2829</field>
+		<field name="name">ЖК Соборный</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Соборная, 118/19</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2830</field>
+		<field name="name">ЖК Затишне містечко</field>
+		<field name="city">Иванковичи</field>
+		<field name="address">ул. Ленина, 100а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2834</field>
+		<field name="name">ЖК Освіти</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Просвещения, 16, 16а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2836</field>
+		<field name="name">ЖК Бонапарт</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Щекавицкая, 53</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">2837</field>
+		<field name="name">ЖК Skyline</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Евгения Коновальца (Щорса), 26а</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2841</field>
+		<field name="name">ЖК Демеевка</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Демеевская, 14</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2842</field>
+		<field name="name">ЖК Щасливі проліски</field>
+		<field name="city">Борисполь</field>
+		<field name="address">с. Пролиски, ул. Морозова, 16</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2843</field>
+		<field name="name">ЖК Gloria Park</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 90/1</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2850</field>
+		<field name="name">ЖК Атлант (Коцюбинское)</field>
+		<field name="city">Коцюбинское</field>
+		<field name="address">ул. Доковская, 14</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2858</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Володи Дубинина, 5/15, 7/14</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2859</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Гмыри, 17</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2860</field>
+		<field name="name">ЖК Comfort House</field>
+		<field name="city">Обухов</field>
+		<field name="address">ул. Киевская, 128</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2862</field>
+		<field name="name">ЖК Котляревского</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Котляревского, 31а, 31б, 31в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2864</field>
+		<field name="name">ЖК Вишнева оселя (ул. Красноармейская)</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Красноармейская, 4</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2865</field>
+		<field name="name">ЖК Вишнева оселя (ул. Дружбы)</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Дружбы, 1</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2868</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Тбилисский, 1/26 (ул. Шулявская, 32)</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">2869</field>
+		<field name="name">ЖК Подкова</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Красноармейская, 16, ул. Киевская, 37</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2872</field>
+		<field name="name">ЖК Подкова-Стугна</field>
+		<field name="city">Украинка</field>
+		<field name="address">ул. Киевская</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">2876</field>
+		<field name="name"></field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Новая, 31а, 31б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2878</field>
+		<field name="name">ЖК Паркова Вежа</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Краснопольская, 2г</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2880</field>
+		<field name="name"></field>
+		<field name="city">Глеваха</field>
+		<field name="address">ул. Вокзальная, 11а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2881</field>
+		<field name="name"></field>
+		<field name="city">Глеваха</field>
+		<field name="address">ул. Вокзальная, 49</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2885</field>
+		<field name="name">ЖК SOHO residence</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Демеевская, 13</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2887</field>
+		<field name="name">ЖК Заречный</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Заречная, 1б, 1в, 1г, ул. Николая Бажана, 1а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2889</field>
+		<field name="name">ЖК Зеленый город</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Садовая, 45б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">2892</field>
+		<field name="name">ЖК Версаль Парк</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Украинская, 83б</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2895</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 2ю</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2899</field>
+		<field name="name">ЖК Белогородка</field>
+		<field name="city">Белогородка</field>
+		<field name="address">ул. Школьная, 77-79, ул. Ленина, 99</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2900</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Сормовская, 3</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">frozen</field>
+	</row>
+
+	<row>
+		<field name="building_id">2902</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Валерия Лобановского (Краснозвездный), 15/7</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2905</field>
+		<field name="name"></field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Октябрьская, 34б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2906</field>
+		<field name="name">ЖК Амурский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Михаила Максимовича (Трутенко), 3</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2929</field>
+		<field name="name">ЖК Подол Градъ</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Дегтярная, 7, 8, 9-11, 10, 13-15, 25, 29, 31, ул. Кожемяки, 10ж</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2953</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Евгения Коновальца (Щорса), 36е</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2954</field>
+		<field name="name">ЖК Софиевский квартал (ул. Ак. Шалимова)</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Академика Шалимова, 63, 65, 67, 67а, 67б, 67в, 69, 69а, 69б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2957</field>
+		<field name="name">ЖК Geneva</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Ивана Лепсе, 9а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2958</field>
+		<field name="name">ЖК Акварели-2</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Ватутина</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2959</field>
+		<field name="name">ЖК Лесная сказка</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Радистов, 32</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2973</field>
+		<field name="name">ЖК Черновола</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Черновола, 48б, 50а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2976</field>
+		<field name="name">ЖК Panorama</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Киквидзе, 41-43</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2977</field>
+		<field name="name">ЖМ Патриотика</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бориса Гмыри, ул. Коллекторная</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2981</field>
+		<field name="name">ЖК Енисейская усадьба</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Писаржевского, 8, ул. Иртышская, 20</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2982</field>
+		<field name="name">Клубный дом «InCo Home на Подоле»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Лукьяновская, 14а</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2984</field>
+		<field name="name">ЖК Традиция</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Елены Пчелки, 3</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">2995</field>
+		<field name="name">ЖК Талисман</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Пушкинская, 60л, 60н, ул. Лысенко (Надсонова), 14г,  ул. Давидчука (Коминтерна), 42</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3001</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ивана Франко, 11</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3003</field>
+		<field name="name">ЖК Жуляны</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Добробутная, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3005</field>
+		<field name="name">ЖК Солнечная Ривьера</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Никольско-Слободская, 1</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3010</field>
+		<field name="name">ЖК Спутник-Теремки</field>
+		<field name="city">Гатное</field>
+		<field name="address">ул. Институтская, 45, ул. Кармелюка</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3013</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Крушельницкой, 11, 15, 15а, 15б, 15в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">3021</field>
+		<field name="name">Клубный дом «Liberty Estate»</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Лукьяновский, 3</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3027</field>
+		<field name="name">ЖК Lake House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Маршала Малиновского, 2а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3028</field>
+		<field name="name">ЖК Гармония</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Стуса, 7</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3030</field>
+		<field name="name">ЖК Renaissance Residence</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Новоселицкая, 7, 9, 10, ул. Добролюбова, 4</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3032</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Моторный, 11</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3033</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Казимира Малевича (Боженко), 75-77</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">3034</field>
+		<field name="name">ЖК Синергия-2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Мечникова, 118, ул. Новооскольская, 2п-2с</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3035</field>
+		<field name="name">ЖК Garden City Residence</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Златоустовская, 30а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3042</field>
+		<field name="name">ЖК Академ Парк</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Академика Вернадского, 24</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3047</field>
+		<field name="name">ЖК Софиевская сфера</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Гетьманская, 9, ул. Соборная (Ленина), 126</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3057</field>
+		<field name="name">МФК Petra</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Киевская, 2м</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3059</field>
+		<field name="name">ЖК Карат</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская (Карла Маркса), 2ф</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3067</field>
+		<field name="name">Клубный дом «Чорногория»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Черногорская, 14</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3073</field>
+		<field name="name">ЖК Pechersk Hills Residence</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Мичурина, 28-32</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3074</field>
+		<field name="name">ЖК Добробут Петровский</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Тепличная (Красного Пахаря), 29з</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3079</field>
+		<field name="name">Жилой дом «Владимирский»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Антоновича (Горького), 109</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">3082</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Гоголевская, 43</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3089</field>
+		<field name="name">ЖК Нивки-Парк</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 67</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3092</field>
+		<field name="name">ЖК Печерск Плаза</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Киквидзе, 17</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3093</field>
+		<field name="name">ЖК Lemonade</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ломоносова, 36а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">3097</field>
+		<field name="name">ЖК Фортуна-2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Джерельная, 2, 4, 6, 8, 10, 12, 14</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3105</field>
+		<field name="name">ЖК Green Life</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Мечникова, 104а, 106, 106а, 106г, 106е, 106э</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3115</field>
+		<field name="name">ЖК Вильямс Авеню</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Вильямса, 2в</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3126</field>
+		<field name="name"></field>
+		<field name="city">Белая Церковь</field>
+		<field name="address">ул. Шолом Алейхема, 37</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3127</field>
+		<field name="name"></field>
+		<field name="city">Белая Церковь</field>
+		<field name="address">ул. Запорожская</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3128</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Чоколовский, 27б</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3131</field>
+		<field name="name">ЖК Олимпийский</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Олимпийская</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3133</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Космонавта Комарова, 46</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">3135</field>
+		<field name="name">ЖК Центральный</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Демьяна Попова, 26</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3136</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Редутная, 67</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">3140</field>
+		<field name="name">ЖК Соломенская, 20А</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Соломенская, 20а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3143</field>
+		<field name="name">ЖК Обуховский ключ</field>
+		<field name="city">Обухов</field>
+		<field name="address">ул. Каштановая</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3149</field>
+		<field name="name">ЖК Аристократ</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Давидчука (Коминтерна), 15б, 15в</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3151</field>
+		<field name="name">Elyseum home space</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Маршала Рыбалко, 3а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3153</field>
+		<field name="name">ЖК Park Town</field>
+		<field name="city">Гостомель</field>
+		<field name="address">ул. Охотничья, 5-17</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3163</field>
+		<field name="name">ЖК L-квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Ивана Лепсе, 6ж</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3171</field>
+		<field name="name">ЖК Берегиня</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Набережная, 6г</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3173</field>
+		<field name="name">ЖК Sherwood Park</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Выговского (Суворова), 2к</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3175</field>
+		<field name="name">ЖК Киевский-2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская (Карла Маркса), 2л</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3201</field>
+		<field name="name">ЖК ObolonSky</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Оболонский, 1</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3203</field>
+		<field name="name">ЖК Саксаганский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Саксаганского, 70а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3204</field>
+		<field name="name">ЖК Сакура</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Единства, 4, 6, 6а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3205</field>
+		<field name="name">ЖК Хотов</field>
+		<field name="city">Хотов</field>
+		<field name="address">ул. Партизанская</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3208</field>
+		<field name="name">ЖК Green Yard</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Толбухина, 43а, 43б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">3209</field>
+		<field name="name">ЖК Озерный гай (Гатное)</field>
+		<field name="city">Гатное</field>
+		<field name="address">ул. Ленина, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3216</field>
+		<field name="name">ЖК Голосеевский квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Вильямса, 8в</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3220</field>
+		<field name="name">ЖК Идея</field>
+		<field name="city">Гнедин</field>
+		<field name="address">ул. Чайковского, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3222</field>
+		<field name="name">ЖК Наш будинок</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 71а</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3225</field>
+		<field name="name">ЖК Променада</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Леси Украинки, 62</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3227</field>
+		<field name="name">ЖК Теплый стан</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Мечникова, 106д, 106з</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3228</field>
+		<field name="name">ЖК Новомостицкий</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Новомостицкая, 15</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3242</field>
+		<field name="name">Клубный дом «New York»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Редутная, 60</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3255</field>
+		<field name="name">ЖК София Клубный</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Соборная (Ленина), 100</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3273</field>
+		<field name="name">ЖК 4 Карата</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Ватутина, 110</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3312</field>
+		<field name="name">ЖК Status</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Минеральная, 42, 45, 47, ул. Тургеневская, 50</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3337</field>
+		<field name="name">ЖК Петровский</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Назария Яремчука</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3339</field>
+		<field name="name">ЖК Защитник</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бориспольская, 19</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">3361</field>
+		<field name="name">ЖК Pechersk Hall</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Зверинецкая, 72</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3362</field>
+		<field name="name"></field>
+		<field name="city">Белая Церковь</field>
+		<field name="address">ул. Леваневского, 70</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3369</field>
+		<field name="name"></field>
+		<field name="city">Обухов</field>
+		<field name="address">ул. Песчаная, 1</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3377</field>
+		<field name="name">ЖК Барселона</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Петровская, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3380</field>
+		<field name="name">ЖК Капитал</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Соборная, 126</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3381</field>
+		<field name="name">ЖК Ясногорский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ясногорская, 16а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3382</field>
+		<field name="name">ЖК Козацкий Гай</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Казацкая, 55</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3389</field>
+		<field name="name">ЖК Диамант</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Киевская, 261</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3390</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Патриса Лумумбы, 11</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3394</field>
+		<field name="name">ЖК Метрополия</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Днепродзержинская, 128-130</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3396</field>
+		<field name="name">ЖК Курортный</field>
+		<field name="city">Ворзель</field>
+		<field name="address">ул. Лесная (Пролетарская), 35/1, 35/2, 35/3</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3398</field>
+		<field name="name">ЖК СанЛэнд</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Звездная, 13</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3400</field>
+		<field name="name">ЖК Автограф</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Генерала Жмаченко, 28</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3403</field>
+		<field name="name">ЖК Busov Hill</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бусловская, 12</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3405</field>
+		<field name="name">ЖК Rich Town</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Западная</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3414</field>
+		<field name="name">ЖК Веселка</field>
+		<field name="city">Гора</field>
+		<field name="address">ул. Науки, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3415</field>
+		<field name="name">ЖК Банковский</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Банковская, 32</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3454</field>
+		<field name="name">Клубный дом «Гоголевская, 47»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Гоголевская, 47</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3464</field>
+		<field name="name">Дом «Панорамный»</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Выговского (Суворова), 1и, 1ф</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3468</field>
+		<field name="name">ЖК Запорожский</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Запорожская, 1</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3470</field>
+		<field name="name">ЖК Уютный</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Новооскольская, 2к, 2л</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3471</field>
+		<field name="name">ЖК Пушкинский квартал</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Пушкинская, 62г</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3477</field>
+		<field name="name">ЖК Matroskin</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Матросова, 15д</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3486</field>
+		<field name="name">ЖК PARKLAND</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Практичная, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3491</field>
+		<field name="name">ЖК Бавария</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Сечевая, 6</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3492</field>
+		<field name="name">ЖК Белый Шоколад. City Lake</field>
+		<field name="city">Белогородка</field>
+		<field name="address">с. Шевченково, пер. Юбилейный, 4а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3493</field>
+		<field name="name">ЖК Сяйво</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 2г</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3494</field>
+		<field name="name">ЖК Львовский квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Глубочицкая, 13</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3501</field>
+		<field name="name">ЖК Кристер Град</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Межевая / просп. Правды / ул. Маршала Гречко</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3508</field>
+		<field name="name">ЖК Дипломат</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Тургеневская, 25в</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3509</field>
+		<field name="name">ЖК Яснополянский</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Яснополянская, 48б</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3519</field>
+		<field name="name">ЖК Киевский Шлях</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Киевский Шлях, 95</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">frozen</field>
+	</row>
+
+	<row>
+		<field name="building_id">3526</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">Андреевский спуск, 30-34в</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3533</field>
+		<field name="name">ЖК Фамильный</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Симона Петлюры (Черняховского), 20</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3534</field>
+		<field name="name">ЖК Верховина</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 109</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3535</field>
+		<field name="name">Жилой дом-5, Выгуровщина-20</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Николая Закревского, 101</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3536</field>
+		<field name="name">ЖК Садовый</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Сечевых Стрельцов, 15</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3538</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Замковецкая, ул. Новомостицкая</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3539</field>
+		<field name="name">ЖК Ярославов Град</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бульварно-Кудрявская (Воровского), 15а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3540</field>
+		<field name="name">ЖК Эврика</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Глушкова, 6</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3544</field>
+		<field name="name">ЖК Полтавский</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Полтавская, 64</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3545</field>
+		<field name="name">ЖК Almond apartments</field>
+		<field name="city">Гатное</field>
+		<field name="address">ул. Теремковская / ул. Абрикосова, 12, 14</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3549</field>
+		<field name="name">ЖК Петропавловская Мечта</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Черкасская, 14</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3550</field>
+		<field name="name">ЖК Jack House</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Леси Украинки, 7-9, ул. Первомайского, 8</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3557</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Лейпцигская, 13</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3565</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Довженко (Гайдара), 13</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3572</field>
+		<field name="name">ЖК Цветочный</field>
+		<field name="city">Ворзель</field>
+		<field name="address">ул. Цветочная, 1/4, ул. Молодежная, 2/4, 2/6</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3580</field>
+		<field name="name">Дом «Южный»</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Лермонтова, 2л, 2м</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3585</field>
+		<field name="name">ЖК DESNA residence</field>
+		<field name="city">Зазимье</field>
+		<field name="address">ул. Киевская</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3590</field>
+		<field name="name">Жилой дом №1</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Льва Толстого, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3594</field>
+		<field name="name">ЖК Есенин</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Есенина, 30</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3642</field>
+		<field name="name">ЖК Sherwood</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Авиаконструктора Антонова, 4а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3707</field>
+		<field name="name">ЖК Дом на Строителей</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Строителей, 30</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3708</field>
+		<field name="name">ЖК Контраст</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Тургеневская, 15</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3855</field>
+		<field name="name">ЖК Orange Park</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Одесская, 23</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3918</field>
+		<field name="name">ЖК Delmar</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Драгомирова, 4б</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3967</field>
+		<field name="name">ЖК Ярославский на Подоле</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Ярославский, 1/3</field>
+		<field name="class">3</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3979</field>
+		<field name="name">ЖК Голосеевские сады</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Кащенко, 113</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3984</field>
+		<field name="name">ЖК Княжицкий двор</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Княжицкая, 39, 43, 45, 47</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3987</field>
+		<field name="name">ЖК Эко Таун</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Стеценко, 30</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">frozen</field>
+	</row>
+
+	<row>
+		<field name="building_id">3988</field>
+		<field name="name">ЖК Воздухофлотский квартал</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Шолуденко, 1а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3989</field>
+		<field name="name">ЖК Французский квартал 2</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Большая Васильковская, 139</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3990</field>
+		<field name="name">ЖК Victory V</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, 5б</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3992</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Краковская, 27а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3993</field>
+		<field name="name">Варшавский Микрорайон</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Правды / ул. Маршала Гречко</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3994</field>
+		<field name="name">ЖК Велесгард</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Ватутина</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">3999</field>
+		<field name="name">ЖК Жасмин</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Лесная, 6а, 6б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4000</field>
+		<field name="name">ЖК Gold City</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Островского, 34б</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4007</field>
+		<field name="name">ЖД На Левадной</field>
+		<field name="city">Киев</field>
+		<field name="address">Бортничи, ул. Левадная, 56</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4025</field>
+		<field name="name">ЖК Счастливый на Яблоневой</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Яблоневая, 5а, 5б, 5в, 13а, 13б, 13в, 13г</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4029</field>
+		<field name="name">ул. Армянская, 6</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Армянская, 6а</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4047</field>
+		<field name="name">ЖМ Нова Буча</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Бориса Гмыри, 9</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4058</field>
+		<field name="name">ЖК Галактика</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Евгения Сверстюка (Марины Расковой), 4</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4059</field>
+		<field name="name">ЖК Покровский</field>
+		<field name="city">Гостомель</field>
+		<field name="address">ул. Свято-Покровская, 73е</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4060</field>
+		<field name="name">ЖК Островский</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Ерощенко (Островского), 12з</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4062</field>
+		<field name="name">ЖК Signature</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Мечникова, 11а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4075</field>
+		<field name="name"></field>
+		<field name="city">Малая Александровка</field>
+		<field name="address">ул. Заможная, 9</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">4078</field>
+		<field name="name">ЖК Троицкий</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Армянский, 17</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4094</field>
+		<field name="name">ЖД Панорамный 2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Выговского (Суворова), 2д</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4099</field>
+		<field name="name">ЖК Гостомельские липки</field>
+		<field name="city">Гостомель</field>
+		<field name="address">ул. Остромирская, 35б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4116</field>
+		<field name="name">Клубный дом «Пушкинская, 21»</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Пушкинская, 21а</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4126</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Отрадный, 2 (просп. Комарова, 1)</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">4130</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Петра Калнышевского (Майорова), 6</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4139</field>
+		<field name="name">ЖК Столичный квартал 2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Киричека (Карла Либкнехта), 5, 7</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4141</field>
+		<field name="name">ЖК Позитив</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Мечникова, 108в-110в</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4143</field>
+		<field name="name">ЖК 7'я</field>
+		<field name="city">Счастливое</field>
+		<field name="address">ул. Леси Украинки, 2а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4149</field>
+		<field name="name"></field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Шевченко, 22б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4150</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Мечникова, 116</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4151</field>
+		<field name="name">ЖК Харьковский</field>
+		<field name="city">Киев</field>
+		<field name="address">Харьковское шоссе, 210</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4157</field>
+		<field name="name">ЖК Borispol DeLuxe</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Защитников Отечества, 12</field>
+		<field name="class">2</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4163</field>
+		<field name="name">ЖК Квартал Парковый</field>
+		<field name="city">Обухов</field>
+		<field name="address">мкрн №3</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4179</field>
+		<field name="name">ЖК Черри Таун</field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Черновола, 46б, ул. Ивана Франко, 2а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4191</field>
+		<field name="name">ЖК Фаворит</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Минеральная, 7ж</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4193</field>
+		<field name="name">ЖК Берген</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Полковника Потехина, 9</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">frozen</field>
+	</row>
+
+	<row>
+		<field name="building_id">4196</field>
+		<field name="name">ЖК Millennium City</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Ивана Кожедуба, 3</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4197</field>
+		<field name="name">ЖК Славутич</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Заречная, 16</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4201</field>
+		<field name="name">ЖК Зеленый</field>
+		<field name="city">Белая Церковь</field>
+		<field name="address">ул. Зеленая, 21</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4203</field>
+		<field name="name">ЖК Вышиванка</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Приорская (Полупанова), 16</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4206</field>
+		<field name="name">ЖД Княжий двор</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Лермонтова, 2р, 2с, 2т, 2х, 2ц, 2ч</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4208</field>
+		<field name="name">ЖК Британика</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Полтавская, 31н</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4219</field>
+		<field name="name">ЖК Adamant</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Липковского, 35</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4222</field>
+		<field name="name">ЖК Парковая долина</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Кайсарова, 7/9</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4223</field>
+		<field name="name">Клубный дом «Irpin Residence»</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Садовая, 78</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4225</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Милославская, 18</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4226</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Платоновский, 6</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4233</field>
+		<field name="name">ЖК Медовый</field>
+		<field name="city">Гостомель</field>
+		<field name="address">ул. Рекунова, 6</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4235</field>
+		<field name="name">ЖК Затишна Оселя</field>
+		<field name="city">Глеваха</field>
+		<field name="address">ул. Вокзальная, 39б</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4242</field>
+		<field name="name">ЖК ИТТФ</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Булаховского, 2 (ул. Генерала Наумова / просп. Академика Палладина)</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4245</field>
+		<field name="name">ЖК Київський маєток</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Бышевская, 3-5</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4250</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Панельная, 2</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4251</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Драгоманова, 35</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4257</field>
+		<field name="name">ЖК Ривьера</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Малоземельная, 75</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4261</field>
+		<field name="name">ЖК Smart House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Машиностроительная, 39</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4263</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Горловская, 215а, 215б, 215в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4265</field>
+		<field name="name">ЖК Одесский квартал</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Одесская, 46</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4295</field>
+		<field name="name">ЖК Новокиевский</field>
+		<field name="city">Новые Петровцы</field>
+		<field name="address">ул. Европейская, 1</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4305</field>
+		<field name="name">Жилой дом-3, Выгуровщина-20</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Милославская / ул. Закревского</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4309</field>
+		<field name="name">ЖК iHome</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Балукова, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4311</field>
+		<field name="name"></field>
+		<field name="city">Вишневое</field>
+		<field name="address">ул. Вишневая, 17</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4313</field>
+		<field name="name">ЖК Scandia</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Богунская</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4315</field>
+		<field name="name">ЖК New York Concept House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Антоновича (Горького), 74-78</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4319</field>
+		<field name="name">ЖК Campus</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Полевая, 38</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4322</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Володи Дубинина, 2а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4328</field>
+		<field name="name">ЖК Капучино</field>
+		<field name="city">Белогородка</field>
+		<field name="address">ул. Европейская, 1</field>
+		<field name="class">1</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4331</field>
+		<field name="name">ЖК Fresh City</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4336</field>
+		<field name="name">ЖК Fresh Town</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 1-Т/1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4343</field>
+		<field name="name">ЖК Киевский</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Амосова, 4</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4353</field>
+		<field name="name">ЖК Континент</field>
+		<field name="city">Буча</field>
+		<field name="address">пер. Тихого, 4</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4360</field>
+		<field name="name">ЖК New City</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Современная</field>
+		<field name="class">1</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4370</field>
+		<field name="name">ЖК West House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Кустанайская, 13</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4382</field>
+		<field name="name">ЖМ Саванна Сити</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Чубинского</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4397</field>
+		<field name="name">ЖК Святопетровский</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Владимирская, 2в</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4398</field>
+		<field name="name">ЖК Skyland 2</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Сергея Колоса (Ленина), 2а, 2б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">all_sold</field>
+	</row>
+
+	<row>
+		<field name="building_id">4400</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Речная, 4</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4402</field>
+		<field name="name">ЖК Bristol Comfort House</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Валерия Лобановского (Краснозвездный), 146б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4410</field>
+		<field name="name">ЖК Кирилловский Гай</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Багговутовская, 1а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4412</field>
+		<field name="name">ЖК Синергия-3</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Григория Сковороды, 11</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4414</field>
+		<field name="name">ЖК Новопечерский Квартал №5</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Новопечерский, 5</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4416</field>
+		<field name="name">ЖК Ваш Добробут</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Мечникова, 109</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4421</field>
+		<field name="name">ЖК Гвардейский</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Генерала Алмазова (Кутузова), 18/7</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4424</field>
+		<field name="name">ЖК Пектораль</field>
+		<field name="city">Киев</field>
+		<field name="address">бул. Кольцова, 7а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4428</field>
+		<field name="name">ЖК Green Life-2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Натана Рыбака, 2</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4429</field>
+		<field name="name">ЖК Солнечный</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Привокзальная, 2в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4436</field>
+		<field name="name">ЖК NovoSell</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Новооскольская, 6а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4443</field>
+		<field name="name">ЖК Echo Park</field>
+		<field name="city">Петропавловская Борщаговка</field>
+		<field name="address">ул. Большая Кольцевая, 9</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4444</field>
+		<field name="name">ЖК Маєток «Желань»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Трублаини, 18</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4455</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Чехова, 14в</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4456</field>
+		<field name="name">ЖК Вышгород Сити Парк</field>
+		<field name="city">Вышгород</field>
+		<field name="address">пер. Прожекторный</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4461</field>
+		<field name="name">ЖК Лико-Град 4</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Вильямса, 7</field>
+		<field name="class">1</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">unknown</field>
+	</row>
+
+	<row>
+		<field name="building_id">4464</field>
+		<field name="name">ЖК Династия</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Липковского, 37г</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4466</field>
+		<field name="name">ЖК Злагода</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Архитектора Вербицкого, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4471</field>
+		<field name="name">Арт квартал «Співоче»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Стеценко</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4505</field>
+		<field name="name">ЖК New York Towers</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4515</field>
+		<field name="name">ЖК Новая Англия</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Михаила Максимовича (Трутенко), 24</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4516</field>
+		<field name="name">ЖК Покрова</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Сечевых Стрельцов (Артема), 59</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4517</field>
+		<field name="name">ЖК Атриум</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Тургеневская, 50</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4518</field>
+		<field name="name">ЖК MunHausen</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Киевская, 53</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4519</field>
+		<field name="name">ЖК Villa Sofia</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Береговая, 7а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4541</field>
+		<field name="name">ЖК Рідне місто</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Качалова, 40</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4555</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Майбороды, 25б</field>
+		<field name="class">1</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4562</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Дмитриевская, 60/19</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4579</field>
+		<field name="name">ЖК Акцент</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Академика Глушкова, 9б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4582</field>
+		<field name="name">ЖК The Garden</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бусловская, 15</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4593</field>
+		<field name="name">Клубный дом «Fort House»</field>
+		<field name="city">Вышгород</field>
+		<field name="address">просп. Тараса Шевченко, 6б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4603</field>
+		<field name="name">ЖК На Прорезной</field>
+		<field name="city">Гостомель</field>
+		<field name="address">ул. Прорезная, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4607</field>
+		<field name="name">Европейка в Софиевской Борщаговке</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Соборная</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4620</field>
+		<field name="name">ЖК Звездный</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Ватутина, 79</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4637</field>
+		<field name="name">ЖК Podil Plaza &amp; Residence</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Глубочицкая, 73-77</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4646</field>
+		<field name="name">Клубный дом «Тихая гавань»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Набережно-Корчеватская, 27</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4652</field>
+		<field name="name">ЖК Зенит</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Шолуденко, 17к</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4663</field>
+		<field name="name">ЖК Отрадный</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Каблукова, 23</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4672</field>
+		<field name="name">ЖК Cardinal</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Анри Барбюса, 28а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4678</field>
+		<field name="name">ЖК На Ревуцкого</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ревуцкого</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4683</field>
+		<field name="name">ЖК Lemongrass</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Тургеневская, 50</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4686</field>
+		<field name="name">ЖК Чарівне місто</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бориспольская, 18-26</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4687</field>
+		<field name="name">ЖК Manhattan</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Победы, ул. Борщаговская</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4694</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Каховская, 60</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4702</field>
+		<field name="name">ЖК Сяйво 2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 1б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4703</field>
+		<field name="name">ЖК Family</field>
+		<field name="city">Гатное</field>
+		<field name="address">ул. Тополевая, 2</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4704</field>
+		<field name="name">ЖК Сонячна Оселя</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Ивана Кожедуба, 8б</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4715</field>
+		<field name="name">Клубный дом «Покровская, 9а»</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Покровская, 9а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4717</field>
+		<field name="name">ЖК Airport city</field>
+		<field name="city">Борисполь</field>
+		<field name="address">с. Великая Александровка, ул. Соборная</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4727</field>
+		<field name="name">ЖК Spas Sky</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Спасская, 35</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4728</field>
+		<field name="name">ЖК Обериг-2</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бориспольская, 40</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4730</field>
+		<field name="name">ЖК Погребы</field>
+		<field name="city">Погребы</field>
+		<field name="address">ул. Грушевского, 12</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4732</field>
+		<field name="name">ЖК Прованс-2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Новооскольская, 10</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4735</field>
+		<field name="name">ЖК Fresh Sky</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 1-С/1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4740</field>
+		<field name="name">ЖК Дипломат</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Гоголевская, 44-46</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4746</field>
+		<field name="name">ЖК Chicago Central House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Антоновича (Горького), 44</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4748</field>
+		<field name="name">ЖК Freedom</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Броварской / просп. Освободителей</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4753</field>
+		<field name="name">ЖК Борисо-Глебский</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Школьная, 73а</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4755</field>
+		<field name="name">ЖК AuRoom</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Паньковская, 20/8</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4756</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Туполева, 5а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4760</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Довженко (Гайдара), 8</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4761</field>
+		<field name="name">ЖК Женевьева-2</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Пушкинская, 25б</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4762</field>
+		<field name="name">ЖК Новоселки</field>
+		<field name="city">Новоселки</field>
+		<field name="address">ул. Озерная, 4а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4763</field>
+		<field name="name">ЖК Чабаны</field>
+		<field name="city">Чабаны</field>
+		<field name="address">ул. Юности, 7</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4770</field>
+		<field name="name">ЖК Veles Place</field>
+		<field name="city">Киев</field>
+		<field name="address">Вознесенский спуск, 28</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4771</field>
+		<field name="name">ЖК Urban Ranch</field>
+		<field name="city">Чубинское</field>
+		<field name="address">ул. Выставочная, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4774</field>
+		<field name="name">ЖК V Квартал (Пятый квартал)</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Межевая</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4785</field>
+		<field name="name">ЖК Time</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Липковского, 38</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4787</field>
+		<field name="name">ЖК Квартал Крюковщина</field>
+		<field name="city">Крюковщина</field>
+		<field name="address">ул. Возрождения, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4797</field>
+		<field name="name">ЖК Seven</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Днепровская набережная, 18</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4804</field>
+		<field name="name">ЖК Crystal House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Жилянская, 26-28</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4810</field>
+		<field name="name">ЖК Дом на Бориспольской</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Бориспольская, 26</field>
+		<field name="class">4</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4812</field>
+		<field name="name">ЖК Французский бульвар</field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Шолуденко, 24</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4815</field>
+		<field name="name">ЖК Вудстория</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Полесская, 4</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4819</field>
+		<field name="name">ЖК Новый Хотов</field>
+		<field name="city">Хотов</field>
+		<field name="address">ул. Шевченко, 85</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4820</field>
+		<field name="name">ЖК Einstein Concept House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Златоустовская, 24</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4822</field>
+		<field name="name">ЖК Престиж</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Киевский Путь, 1д, корп. 4</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4823</field>
+		<field name="name">ЖК Саме Той</field>
+		<field name="city">Немешаево</field>
+		<field name="address">ул. Чкалова</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4827</field>
+		<field name="name">ЖК Коцюбинский</field>
+		<field name="city">Коцюбинское</field>
+		<field name="address">ул. Пономарева, 26</field>
+		<field name="class">1</field>
+		<field name="state">ready</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4830</field>
+		<field name="name">Клубный дом «Struetinsky»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Болсуновская (Струтинского), 4</field>
+		<field name="class">3</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4841</field>
+		<field name="name">ЖК Аристократ</field>
+		<field name="city">Белая Церковь</field>
+		<field name="address">ул. Митрофанова, 2а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4847</field>
+		<field name="name">ЖК Модуль</field>
+		<field name="city">Буча</field>
+		<field name="address">бул. Бирюкова / ул. Вишневая / ул. Бандеры</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4853</field>
+		<field name="name">ЖК Karaway Tower</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ушинского, 14а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4857</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Петра Радченко, 27-29</field>
+		<field name="class">1</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4862</field>
+		<field name="name">ЖК Зеленый гай</field>
+		<field name="city">Обухов</field>
+		<field name="address">ул. Зеленый Гай, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4865</field>
+		<field name="name">ЖК Ukrainian Hills</field>
+		<field name="city">Украинка</field>
+		<field name="address">просп. Днепровский, 27</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4866</field>
+		<field name="name">ЖК А52</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Сечевых Стрельцов (Артема), 52а, 52д</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4868</field>
+		<field name="name">ЖК Rybalsky</field>
+		<field name="city">Киев</field>
+		<field name="address">Набережно-Рыбальская дорога, 3, 9</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4888</field>
+		<field name="name">ЖК Smart Plaza Obolon</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Маршала Тимошенко, 21, корп. 1</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4889</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Драгоманова, 35/55</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4892</field>
+		<field name="name">ЖК Успешный</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Успешная, 28</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4893</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Успешная, 9/3</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4900</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Огородная, 10</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">unknown</field>
+	</row>
+
+	<row>
+		<field name="building_id">4909</field>
+		<field name="name">ЖК Eurosky</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Крутогорная, 11а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4911</field>
+		<field name="name">ЖК Скай Сити</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Европейская, 16</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4912</field>
+		<field name="name">ЖК River House</field>
+		<field name="city">Украинка</field>
+		<field name="address">ул. Сосновая</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4916</field>
+		<field name="name">ЖК Шевченківський маєток</field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Шевченко, 73</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4917</field>
+		<field name="name"></field>
+		<field name="city">Борисполь</field>
+		<field name="address">ул. Головатого, 76</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4918</field>
+		<field name="name">ЖК Chehov Парк Квартал</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Чехова, 27</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4920</field>
+		<field name="name"></field>
+		<field name="city">Вышгород</field>
+		<field name="address">ул. Кургузова, 11а</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4921</field>
+		<field name="name">ЖК Thelakes</field>
+		<field name="city">Киев</field>
+		<field name="address">пер. Ясиноватский, 11</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4922</field>
+		<field name="name">ЖК Петровский городок</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Амосова, 63</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4939</field>
+		<field name="name">ЖК Современный</field>
+		<field name="city">Святопетровское</field>
+		<field name="address">ул. Центральная, 140б</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4942</field>
+		<field name="name">ЖК Green Side</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Университетская, 1г</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4943</field>
+		<field name="name">ЖК Крона на Киевской</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Киевская</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4944</field>
+		<field name="name">ЖК Дания</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Ягодная, 21</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4949</field>
+		<field name="name">ЖК Crystal Towers</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Амурская</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4951</field>
+		<field name="name">ЖК Mirax</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Глубочицкая, 43</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4957</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Мичурина, 21</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4958</field>
+		<field name="name">ЖК Теремки</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Заболотного, 15</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4960</field>
+		<field name="name">ЖК Семейный квартал</field>
+		<field name="city">Требухов</field>
+		<field name="address">ул. Броварская, 38</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4965</field>
+		<field name="name">ЖК Friendly House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Панельная, 2</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4968</field>
+		<field name="name"></field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Пушкинская, 60п</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4979</field>
+		<field name="name">ЖК Трояндовий квартал</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Чубинского / ул. Спортивная</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4982</field>
+		<field name="name">ЖК Дом №20</field>
+		<field name="city">Васильков</field>
+		<field name="address">Военный городок №11, ул. Декабристов, 20</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4984</field>
+		<field name="name">ЖК Melody Park</field>
+		<field name="city">Борисполь</field>
+		<field name="address">с. Пролиски, ул. Счастливая</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4985</field>
+		<field name="name">ЖК Orange City</field>
+		<field name="city">Киев</field>
+		<field name="address">Лысогорский спуск, 26а</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4986</field>
+		<field name="name">ЖК Аврора</field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Вишневая, 37-43</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4988</field>
+		<field name="name">ЖК Славутич 2</field>
+		<field name="city">Киев</field>
+		<field name="address">просп. Бажана, 151б</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4989</field>
+		<field name="name">ЖК ЭкспоГрад</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Академика Глушкова, 5</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4990</field>
+		<field name="name">ЖК Twin House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Крайняя, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4991</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Народная</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4992</field>
+		<field name="name">ЖК Solo House</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Ярослава Галана, 32</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4994</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Зверинецкая, 96</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">4996</field>
+		<field name="name">ЖК Новые Теремки</field>
+		<field name="city">Новоселки</field>
+		<field name="address">ул. Александровская, 1</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">4998</field>
+		<field name="name">ЖК Green Yard</field>
+		<field name="city">Ирпень</field>
+		<field name="address">ул. Курская, 1-10</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">5006</field>
+		<field name="name">ЖК София Резиденс</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address">ул. Яблоневая, 15</field>
+		<field name="class">2</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">5007</field>
+		<field name="name">ЖК Прага</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Лисковская, 31</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">5010</field>
+		<field name="name">ЖК София Smart</field>
+		<field name="city">Софиевская Борщаговка</field>
+		<field name="address"></field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">5022</field>
+		<field name="name"></field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Кудряшова, 14а</field>
+		<field name="class">2</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">5023</field>
+		<field name="name"></field>
+		<field name="city">Буча</field>
+		<field name="address">ул. Леси Украинки</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">5032</field>
+		<field name="name"></field>
+		<field name="city">Борисполь</field>
+		<field name="address">с. Большая Александровка, ул. Соборная, 98</field>
+		<field name="class">4</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">5034</field>
+		<field name="name">ЖК Barkhans</field>
+		<field name="city">Бровары</field>
+		<field name="address">ул. Фельдмана, 1</field>
+		<field name="class">4</field>
+		<field name="state">in_design</field>
+		<field name="developer_offer">not_started</field>
+	</row>
+
+	<row>
+		<field name="building_id">5045</field>
+		<field name="name">ЖК Уютный</field>
+		<field name="city">Хотов</field>
+		<field name="address">ул. Энергетиков, 1</field>
+		<field name="class">1</field>
+		<field name="state">under_construct</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+	<row>
+		<field name="building_id">5047</field>
+		<field name="name">Клубный дом «HillSide»</field>
+		<field name="city">Киев</field>
+		<field name="address">ул. Лукьяновская, 18-20</field>
+		<field name="class">3</field>
+		<field name="state">unknown</field>
+		<field name="developer_offer">available</field>
+	</row>
+
+</resultset>
