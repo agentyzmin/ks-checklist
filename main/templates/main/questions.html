@@ -7,7 +7,13 @@
 <body>
 <h1>{{ apartment.title }}</h1>
 {% for question in questions %}
-<h2>{{ question.title }}</h2>
+<h3>{{ question.title }}</h3>
+    <form name="question_{{ question.id }}" action="/apartments/{{ apartment.id }}/" method="post">
+        {% csrf_token %}
+        {{ answer_form }}
+        <input type="submit" value="Обрати"/>
+    </form>
 {% endfor %}
+<h2>Результат "{{ apartment.title }}"</h2>
 </body>
 </html>

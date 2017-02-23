@@ -25,7 +25,7 @@ class Question(models.Model):
 class Answer(models.Model):
     apartment = models.ForeignKey(Apartment)
     question = models.ForeignKey(Question)
-    choice_text = models.IntegerField(default=0)
+    choice = models.IntegerField(default=2)
     votes = models.IntegerField(default=0)
 
     def __str__(self):
