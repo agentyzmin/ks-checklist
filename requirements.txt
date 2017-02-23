@@ -6,4 +6,5 @@ lxml==3.7.2
 packaging==16.8
 psycopg2==2.6.2
 pyparsing==2.1.10
+python-decouple==3.0
 six==1.10.0
