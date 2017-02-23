@@ -25,7 +25,7 @@ SECRET_KEY = '*u(fd#*c*3az47*471e14k9)6ry3hn7+(*#=n7k&&vwi126awg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pure-river-13970.herokuapp.com',]
 
 
 # Application definition
