@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'checklist_db',
-        'USER': 'leonidivanov',
-        'PASSWORD': '486ak7wy4',
+        'USER': '',
+        'PASSWORD': '',
     }
 }
 
