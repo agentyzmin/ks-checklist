@@ -75,19 +75,20 @@ WSGI_APPLICATION = 'checklist.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
-}
 #DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'checklist_db',
-#        'USER': 'leonidivanov',
-#        'PASSWORD': '486ak7wy4',
-#    }
+#    'default': dj_database_url.config(
+#        default=config('DATABASE_URL')
+#    )
 #}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'checklist_db',
+        'USER': 'leonidivanov',
+        'PASSWORD': '486ak7wy4',
+        'PORT': '5432'
+    }
+}
 
 
 # Password validation
