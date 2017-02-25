@@ -10,7 +10,9 @@
 <h3>{{ question.title }}</h3>
     <form name="question_{{ question.id }}" action="/apartments/{{ apartment.id }}/" method="post">
         {% csrf_token %}
-        {{ answer_form }}
+        {% for radio in answer_form.answer %}
+            <label><input name="answer" type="radio" value="{{ radio.choice_label }}">{{ radio.choice_label }}</label>
+        {% endfor %}
         <input type="submit" value="Обрати"/>
     </form>
 {% endfor %}
