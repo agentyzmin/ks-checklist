@@ -5,6 +5,15 @@
     <title>Чекліст для покупців</title>
 </head>
 <body>
+<div>
+    <ul>
+        {% if username %}
+            <li><a href="/auth/logout/">Вийти</a></li>
+        {% else %}
+            <li><a href="/auth/login">Увійти</a></li>
+        {% endif %}
+    </ul>
+</div>
 <h1>Чекліст для покупців</h1>
 <form action="/apartments/{{ apartment.id }}" method="post">
     {% csrf_token %}

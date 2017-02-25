@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main.apps.MainConfig',
+    'main',
+    'myauth',
 ]
 
 MIDDLEWARE = [
@@ -85,8 +86,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'checklist_db',
-        'USER': '',
-        'PASSWORD': '',
+        'USER': 'leonidivanov',
+        'PASSWORD': '486ak7wy4',
         'PORT': '5432'
     }
 }

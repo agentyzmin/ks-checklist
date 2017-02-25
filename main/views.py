@@ -3,7 +3,7 @@ from django.shortcuts import get_list_or_404, get_object_or_404
 from .models import Apartment, Question, Answer
 from .forms import ApartmentForm, AnswerForm
 from django.core.urlresolvers import reverse
-
+from django.contrib import auth
 
 def index(request):
     apartments = get_list_or_404(Apartment)
@@ -11,7 +11,8 @@ def index(request):
     if request.method == 'POST':
         apartment_id = request.POST.get('apartment_id')
         return redirect(reverse('index', args=(apartment_id,)))
-    return render(request, 'main/main.html', {'apartments': apartments, 'apartment_form': apartment_form})
+    return render(request, 'main/main.html',
+                  {'apartments': apartments, 'apartment_form': apartment_form, 'username': auth.get_user(request).username})
 
 
 def questions_list(request, apartment_pk):
@@ -19,6 +20,6 @@ def questions_list(request, apartment_pk):
     questions = get_list_or_404(Question)
     answer_form = AnswerForm
     return render(request, 'main/questions.html',
-                  {'questions': questions, 'apartment': apartment, 'answer_form': answer_form})
+                  {'questions': questions, 'apartment': apartment, 'answer_form': answer_form, 'username': auth.get_user(request).username})
 
 

@@ -5,6 +5,15 @@
     <title>{{ apartment.title }}</title>
 </head>
 <body>
+<div>
+    <ul>
+        {% if username %}
+            <li><a href="/auth/logout/">Вийти</a></li>
+        {% else %}
+            <li><a href="/auth/login">Увійти</a></li>
+        {% endif %}
+    </ul>
+</div>
 <h1>{{ apartment.title }}</h1>
 {% for question in questions %}
 <h3>{{ question.title }}</h3>
