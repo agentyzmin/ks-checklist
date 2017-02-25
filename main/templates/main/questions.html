@@ -13,7 +13,6 @@
         {% for radio in answer_form.answer %}
             <label><input name="answer" type="radio" value="{{ radio.choice_label }}">{{ radio.choice_label }}</label>
         {% endfor %}
-        <input type="submit" value="Обрати"/>
     </form>
 {% endfor %}
 <h2>Результат "{{ apartment.title }}"</h2>
