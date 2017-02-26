@@ -6,20 +6,19 @@ from django.core.urlresolvers import reverse
 from django.contrib import auth
 
 def index(request):
-    apartments = get_list_or_404(Apartment)
-    apartment_form = ApartmentForm
+    context = {}
+    context['apartments'] = get_list_or_404(Apartment)
+    context['apartment_form'] = ApartmentForm
     if request.method == 'POST':
         apartment_id = request.POST.get('apartment_id')
         return redirect(reverse('index', args=(apartment_id,)))
-    return render(request, 'main/main.html',
-                  {'apartments': apartments, 'apartment_form': apartment_form, 'username': auth.get_user(request).username})
+    return render(request, 'main/main.html', context)
 
 
 def questions_list(request, apartment_pk):
-    apartment = get_object_or_404(Apartment, pk=apartment_pk)
-    questions = get_list_or_404(Question)
-    answer_form = AnswerForm
-    return render(request, 'main/questions.html',
-                  {'questions': questions, 'apartment': apartment, 'answer_form': answer_form, 'username': auth.get_user(request).username})
-
-
+    context = {}
+    context['apartment'] = get_object_or_404(Apartment, pk=apartment_pk)
+    context['questions'] = get_list_or_404(Question)
+    context['answer_form'] = AnswerForm
+    context['username'] = auth.get_user(request).username
+    return render(request, 'main/questions.html', context)
