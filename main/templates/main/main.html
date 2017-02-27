@@ -15,14 +15,9 @@
     </ul>
 </div>
 <h1>Чекліст для покупців</h1>
-<form action="/apartments/{{ apartment.id }}" method="post">
+<form action="." method="post">
     {% csrf_token %}
-    <p><select size="10">
-        <option disabled>Оберіть комплекс</option>
-    {% for apartment in apartments %}
-    <option value="{{apartment.id}}">{{ apartment.title }}</option>
-        {% endfor %}
-    </select></p>
+    {{ apartment_form }}
     <input type="submit" value="Обрати">
 </form>
 </body>

@@ -1,11 +1,12 @@
-from django.forms import ModelForm, ChoiceField, RadioSelect, Form
+from django.forms import ModelForm, ChoiceField, RadioSelect, Form, Select
 from .models import Apartment, Answer
 
+APARTMENTS = ()
+for apartment in Apartment.objects.all():
+    APARTMENTS += ((apartment.id, apartment.title),)
 
-class ApartmentForm(ModelForm):
-    class Meta:
-        model = Apartment
-        fields = ['title']
+class ApartmentForm(Form):
+    apartment = ChoiceField(label='', widget=Select, choices=APARTMENTS)
 
 ANSWERS = (
     (0, 'Точно ні'),

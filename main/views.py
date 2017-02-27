@@ -8,11 +8,14 @@ from django.contrib import auth
 def index(request):
     context = {}
     context['apartments'] = get_list_or_404(Apartment)
-    context['apartment_form'] = ApartmentForm
     if request.method == 'POST':
-        apartment_id = request.POST.get('apartment_id')
-        return redirect(reverse('index', args=(apartment_id,)))
-    return render(request, 'main/main.html', context)
+        form = ApartmentForm(request.POST or None)
+        if form.is_valid():
+            id = form.cleaned_data.get('apartment', '')
+            return redirect('apartments/{}'.format(id))
+    else:
+        context['apartment_form'] = ApartmentForm
+        return render(request, 'main/main.html', context)
 
 
 def questions_list(request, apartment_pk):
