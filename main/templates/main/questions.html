@@ -8,7 +8,7 @@
 <div>
     <ul>
         {% if username %}
-            <li><a href="/auth/logout/">Вийти</a></li>
+            <li>{{ username }}, <a href="/auth/logout/">Вийти</a></li>
         {% else %}
             <li><a href="/auth/login">Увійти</a></li>
         {% endif %}

@@ -8,17 +8,33 @@
 <div>
     <ul>
         {% if username %}
-            <li><a href="/auth/logout/">Вийти</a></li>
+            <li>{{ username }}, <a href="/auth/logout/">Вийти</a></li>
         {% else %}
             <li><a href="/auth/login">Увійти</a></li>
         {% endif %}
     </ul>
 </div>
 <h1>Чекліст для покупців</h1>
+{% if username %}
 <form action="." method="post">
     {% csrf_token %}
     {{ apartment_form }}
     <input type="submit" value="Обрати">
 </form>
+{% else %}
+<div>
+    <form action="/auth/login/" method="post">
+        {% csrf_token %}
+        <label for="username">Логін</label>
+        <input type="text" name="username" id="username">
+        <label for="password">Пароль</label>
+        <input type="password" name="password" id="password">
+        {% if login_error %}
+            <label>{{ login_error }}</label>
+        {% endif %}
+        <input type="submit" value="Увійти">
+    </form>
+</div>
+{% endif %}
 </body>
 </html>
