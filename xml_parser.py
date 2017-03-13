@@ -35,3 +35,13 @@ print('-' * 20)
 print('Total addresses: ', len(addresses))
 print('-' * 20)
 print('Unique classes: ', set(ap_classes))
+
+import django
+django.setup()
+
+from .main.models import Apartment
+
+for a in apartments:
+    if a[0] is not None and a[2] is not None:
+        q = Apartment(title=a[0], city=a[1], address=a[2], ap_class=a[3], state=a[4], developer_offer=a[5])
+        q.save()

@@ -1,0 +1,7 @@
+<div>
+    <form action="/auth/registration/" method="POST">
+        {% csrf_token %}
+        {{ registration_form }}
+        <input type="submit" value="Зареєструватись">
+    </form>
+</div>

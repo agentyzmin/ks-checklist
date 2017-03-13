@@ -4,3 +4,4 @@ from .models import Question, Apartment, Answer
 
 admin.site.register(Question)
 admin.site.register(Apartment)
+admin.site.register(Answer)

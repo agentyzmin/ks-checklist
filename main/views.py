@@ -24,4 +24,9 @@ def questions_list(request, apartment_pk):
     context['questions'] = get_list_or_404(Question)
     context['answer_form'] = AnswerForm
     context['username'] = auth.get_user(request).username
+    if request.method == 'POST':
+        form = AnswerForm(request.POST or None)
+        if form.is_valid():
+            answer = form.cleaned_data.get('answer', '')
+            print(answer)
     return render(request, 'main/questions.html', context)

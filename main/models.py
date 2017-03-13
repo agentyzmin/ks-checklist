@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 
 class Apartment(models.Model):
     title = models.CharField(max_length=255)
@@ -23,11 +23,11 @@ class Question(models.Model):
 
 
 class Answer(models.Model):
+    user = models.ManyToManyField(User)
     apartment = models.ForeignKey(Apartment)
     question = models.ForeignKey(Question)
     choice = models.IntegerField(default=2)
-    votes = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.choice_text
+        return str(self.choice)
 

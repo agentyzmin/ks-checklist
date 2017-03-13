@@ -27,7 +27,7 @@ SECRET_KEY = '*u(fd#*c*3az47*471e14k9)6ry3hn7+(*#=n7k&&vwi126awg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pure-river-13970.herokuapp.com']
+ALLOWED_HOSTS = []#'pure-river-13970.herokuapp.com']
 
 
 # Application definition
@@ -76,11 +76,19 @@ WSGI_APPLICATION = 'checklist.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-DATABASES = {
-    'default': dj_database_url.config(
-        default='postgres://xrcpwnpfhurdqz:1c311de293b7dcc7c0098c5845f2c6d0a7c074839818c60561d56d7a4fad50e2@ec2-54-235-173-161.compute-1.amazonaws.com:5432/dris91t2ltg5e'),
-}
+#DATABASES = {
+#    'default': dj_database_url.config(
+#        default='postgres://xrcpwnpfhurdqz:1c311de293b7dcc7c0098c5845f2c6d0a7c074839818c60561d56d7a4fad50e2@ec2-54-235-173-161.compute-1.amazonaws.com:5432/dris91t2ltg5e'),
+#}
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'checklist_db',
+        'USER': 'leonidivanov',
+        'PASSWORD': '486ak7wy4',
+    }
+}
 
 
 # Password validation
@@ -105,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'uk-UA'
 
 TIME_ZONE = 'Europe/Kiev'
 
