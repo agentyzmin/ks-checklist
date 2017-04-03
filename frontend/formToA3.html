@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<style>
+		label {
+			display: inline-block;
+			height: 100%;
+		}
+		input { 
+			position: absolute;
+			left: -10000px;
+		}
+		input:checked + label {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>1. На всіх будівлях комплексу є зрозумілі адресні покажчики з назвою вулиці та номером будинку</legend>
+			<input type="radio" value="1" name="question1" id="ch11">
+			<label for="ch11">Точно ні</label>
+			<input type="radio" value="2" name="question1" id="ch12">
+			<label for="ch12">Скоріше ні</label>
+			<input type="radio" value="3" name="question1" id="ch13">
+			<label for="ch13">Не можу відповісти</label>
+			<input type="radio" value="4" name="question1" id="ch14">
+			<label for="ch14">Скоріше так</label>
+			<input type="radio" value="5" name="question1" id="ch15">
+			<label for="ch15">Точно так</label>
+		</fieldset>
+		<fieldset>
+			<legend>2. При в’їзді на територію комплексу розміщена зрозуміла схема кварталу</legend>
+			<input type="radio" value="1" name="question2" id="ch21">
+			<label for="ch21">Точно ні</label>
+			<input type="radio" value="2" name="question2" id="ch22">
+			<label for="ch22">Скоріше ні</label>
+			<input type="radio" value="3" name="question2" id="ch23">
+			<label for="ch23">Не можу відповісти</label>
+			<input type="radio" value="4" name="question2" id="ch24">
+			<label for="ch24">Скоріше так</label>
+			<input type="radio" value="5" name="question2" id="ch25">
+			<label for="ch25">Точно так</label>
+		</fieldset>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
